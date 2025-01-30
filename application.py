@@ -1,4 +1,4 @@
-Rimport logging.handlers
+import logging.handlers
 
 # Create logger
 logger = logging.getLogger(__name__)
@@ -36,7 +36,7 @@ welcome = """
   <style>
   body {
     color: #ffffff;
-    background-color: red;
+    background-color: #E0E0E0;
     font-family: Arial, sans-serif;
     font-size:14px;
     -moz-transition-property: text-shadow;
@@ -106,7 +106,7 @@ welcome = """
 </head>
 <body id="sample">
   <div class="textColumn">
-    <h1>Congratulations !!</h1>
+    <h1>Congratulations Bharat!!</h1>
     <p>Your first AWS Elastic Beanstalk Python Application is now running on your own dedicated environment in the AWS Cloud</p>
     <p>This environment is launched with Elastic Beanstalk Python Platform</p>
   </div>
